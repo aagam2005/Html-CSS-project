@@ -1,0 +1,40 @@
+.hero{
+    position: relative;
+    height:100vh;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero h1{
+    font-size: 48px;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+.button {
+    background-color: var(--button-bg);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+.button:hover {
+    background-color:
+    var(--button-hover);
+}
