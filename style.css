@@ -1,5 +1,35 @@
-/* video, div */
+/* body and header section */
+:root {
+    --bg-color: #121212;
+    --text-color:#f0f0f0;
+    --header-bg: linear-gradient(90deg, #d90429, #6a040f);
+    --card-bg: #222;
+    --button-bg: #d90429;
+    --button-hover: #9d0208;}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
 
+header {
+    background: var(--header-bg);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+/* video, div */
 .hero{
     position: relative;
     height:100vh;
@@ -42,7 +72,6 @@
 }
 /* cards and features section */
 
-/* Features Section */
 .features {
     display: flex;
     justify-content: center;
