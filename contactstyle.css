@@ -9,7 +9,36 @@
     --button-bg: #d90429;
     --button-hover: #9d0208;
 }
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh; /* This ensures it takes at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background: var(--header-bg);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
 .contact-section {
     padding: 60px 20px;
     text-align: center;
